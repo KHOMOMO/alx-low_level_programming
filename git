@@ -4,5 +4,5 @@ echo "input your comit"
 read comit
 
 git add .
-git comit -m "${comit}"
+git commit -m "${comit}"
 git push
