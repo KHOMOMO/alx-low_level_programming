@@ -1,15 +1,14 @@
-#include "main.h"
+#include"main.h"
 
 /**
- * _isupper - functionc parametr
- *@c :parameter
- * Return: Always 0.
+ * _isupper - checks for uppercase character.
+ * @c: integer.
+ * Return: 1 if c is uppercase and 0 otherwise.
  */
-
 int _isupper(int c)
 {
-	if (c >= 'A' &&  c <= 'Z')
+	if (c >= 'A' && c <= 'Z')
+
 		return (1);
-		else
-			return (0);
+	return (0);
 }
